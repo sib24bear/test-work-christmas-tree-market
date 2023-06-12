@@ -1,0 +1,31 @@
+.selector__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px 8px 0 12px;
+}
+
+.selector__list > .list__item {
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+.selector__list > .list__item:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+.selector__list > .list__item:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+@media (max-width: 767.9px) {
+    .selector__list {
+        padding: 8px 8px 8px 16px;
+    }
+
+    .selector__list > .list__item {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 3px;
+    }
+}

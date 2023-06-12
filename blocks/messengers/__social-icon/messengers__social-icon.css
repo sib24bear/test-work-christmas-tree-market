@@ -1,0 +1,15 @@
+.messengers__social-icon {
+    max-width: 13px;
+}
+
+.messengers__social-icon_tg {
+    margin-left: -2px;
+}
+
+.messengers__social-icon_footer {
+    max-width: 40px;
+}
+
+.messengers__social-icon_footer.messengers__social-icon_tg {
+    margin-left: 0;
+}

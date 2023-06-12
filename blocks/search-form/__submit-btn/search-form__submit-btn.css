@@ -1,0 +1,21 @@
+.search-form__submit-btn {
+    padding: 10px 16px;
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 56px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+@media (max-width: 767.9px) {
+    .search-form__submit-btn {
+        padding: 6px 16px;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 12px;
+    }
+}

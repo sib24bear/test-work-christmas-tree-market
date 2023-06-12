@@ -1,0 +1,20 @@
+.advanteg-card {
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 237px;
+    height: 262px;
+    padding: 24px;
+    padding-bottom: 0;
+    background: linear-gradient(331.63deg, #5877FE -3.97%, rgba(255, 255, 255, 0) 74.87%, rgba(255, 255, 255, 0) 74.87%), linear-gradient(35.39deg, #C2FFF8 -1.03%, #FFFFFF 69.8%);
+    border-radius: 40px;
+}
+
+@media (max-width: 767.9px) {
+    .advanteg-card {
+        width: 154px;
+        height: 203px;
+        padding: 16px;
+        border-radius: 26px;
+    }
+}

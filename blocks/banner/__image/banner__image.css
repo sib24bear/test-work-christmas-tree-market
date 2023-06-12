@@ -1,0 +1,15 @@
+.banner__image {
+    position: absolute;
+    z-index: 5;
+}
+
+.banner__image_tree {
+    height: 110%;
+    top: 0;
+    left: 57%;
+}
+
+.banner__image_decor {
+    width: 100%;
+    top: 0;
+}

@@ -1,0 +1,57 @@
+.advanteg-card__image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 237px;
+    z-index: 1;
+}
+
+.advanteg-card__image_marketplace {
+    bottom: -13px;
+}
+
+.advanteg-card__image_bank {
+    bottom: -16px;
+    left: -24px;
+}
+
+.advanteg-card__image_label {
+    max-width: 166px;
+    bottom: -29px;
+    left: 98px;
+}
+
+.advanteg-card__image_car {
+    bottom: -17px;
+    left: 67px;
+}
+
+.advanteg-card__image_stock {
+    left: 24px;
+}
+
+@media (max-width: 767.9px) {
+    .advanteg-card__image {
+        max-width: 154px;
+    }
+
+    .advanteg-card__image_bank {
+        bottom: -17px;
+        left: -35px;
+    }
+    
+    .advanteg-card__image_label {
+        bottom: -25px;
+        left: 14px;
+    }
+    
+    .advanteg-card__image_car {
+        bottom: -2px;
+        left: 46px;
+    }
+    
+    .advanteg-card__image_stock {
+        left: 13px;
+    }
+    
+}

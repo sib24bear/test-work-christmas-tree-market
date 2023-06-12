@@ -1,0 +1,24 @@
+.banner__link {
+    position: relative;
+    z-index: 10;
+    box-sizing: border-box;
+    max-width: 234px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(82.33deg, #9E0CAA 0.26%, #242AFF 47.35%, #23FBE1 111.53%), linear-gradient(44.66deg, #0634FD 1.68%, #00FCDE 48.63%, #EC34FE 93.57%);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 61px;
+}
+
+@media (max-width: 767.9px) {
+    .banner__link {
+        max-width: 104px;
+        padding: 6px 12px;
+        font-size: 8px;
+        line-height: 9px;
+    }
+}

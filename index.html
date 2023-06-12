@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тесотовое задание</title>
+    <script defer="defer" src="pages/index.js"></script>
+    <link rel="stylesheet" href="pages/index.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+           <div class="header-top">
+                <div class="header-top__container">
+                    <nav class="nav">
+                        <ul class="nav__list list">
+                            <li class="list__item">
+                                <a class="nav__link link" href="#about">О нас</a>
+                            </li>
+                            <li class="list__item">
+                                <a class="nav__link link" href="#">Оплата и доставка</a>
+                            </li>
+                            <li class="list__item">
+                                <a class="nav__link link" href="#">Товары из Китая</a>
+                            </li>
+                            <li class="list__item">
+                                <a class="nav__link link" href="#">Статьи</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="messengers__list list">
+                        <li class="list__item">
+                            <a class="messengers__link" href="https://t.me/user_name" target="_blank">
+                                <img class="messengers__social-icon messengers__social-icon_tg" src="./images/tg-logo.svg" alt="Telegram">
+                            </a>
+                        </li>
+                        <li class="list__item">
+                            <a class="messengers__link" href="https://wa.me/+7903xxxxxxx" target="_blank">
+                                <img class="messengers__social-icon messengers__social-icon_whatsapp" src="./images/whatsapp-logo.svg" alt="WhatsApp">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+           </div>
+           <div class="header-body">
+                <div class="header-body__container">
+                    <button class="catalog-button button" aria-label="Каталог">
+                        <span class="burger-line"></span>
+                        <span class="catalog-button__title">Каталог</span>
+                    </button>
+                    <form class="search-form" name="searchForm" noValidate>
+                        <label class="search-form__field">
+                            <input class="search-form__input" type="text" name="search" placeholder="Напишите, что вы ищете..." required>
+                        </label>
+                        <button class="button search-form__submit-btn" type="submit" aria-label="поиск по сайту">Найти</button>
+                    </form>
+                    <ul class="user-buttons user-buttons__list list">
+                        <li class="list__item">
+                            <button class="button user-buttons__btn user-buttons__btn_login" aria-label="Войти">
+                                <span class="user-buttons__title">Войти</span>
+                            </button>
+                        </li>
+                        <li class="list__item">
+                            <button class="button user-buttons__btn user-buttons__btn_featured" aria-label="Избранное">
+                                <span class="user-buttons__title">Избранное</span>
+                            </button>
+                        </li>
+                        <li class="list__item">
+                            <button class="button user-buttons__btn user-buttons__btn_cart active" aria-label="Корзина">
+                                <span class="user-buttons__title">Корзина</span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+           </div>
+        </header>
+        <main class="main">
+            <section class="promo">
+                <h1 class="promo__title title">Наш магазин надежный поставщик для маркетплейсов.</h1>
+                <div class="promo__carousel">
+                    <div class="carousel">
+                        <div class="carousel__inner" style="--slide-count: 7;">
+                          <div class="carousel__item">
+                            <div class="banner">
+                                <h2 class="banner__title title">Сезон подготовки к новогодним продажам открыт!</h2>
+                                <ul class="banner__list list">
+                                    <li class="list__item">
+                                        <p class="banner__content description">Искуственные елки</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Гирляндыика</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Игрушки и украшения</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Пиротехника</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Новогодние подарки</p>
+                                    </li>
+                                </ul>
+                                <a class="banner__link link" href="#">Перейти к каталогу</a>
+                                <div class="banner__background">
+                                    <img class="banner__image banner__image_tree" src="images/baner-tree.png" alt="ёлка">
+                                    <img class="banner__image banner__image_decor" src="images/baner-decor.png" alt="Рождественский декор">
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel__item">
+                            <div class="banner">
+                                <h2 class="banner__title title">Сезон подготовки к новогодним продажам открыт!</h2>
+                                <ul class="banner__list list">
+                                    <li class="list__item">
+                                        <p class="banner__content description">Искуственные елки</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Гирляндыика</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Игрушки и украшения</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Пиротехника</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Новогодние подарки</p>
+                                    </li>
+                                </ul>
+                                <a class="banner__link link" href="#">Перейти к каталогу</a>
+                                <div class="banner__background">
+                                    <img class="banner__image banner__image_tree" src="images/baner-tree.png" alt="ёлка">
+                                    <img class="banner__image banner__image_decor" src="images/baner-decor.png" alt="Рождественский декор">
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel__item">
+                            <div class="banner">
+                                <h2 class="banner__title title">Сезон подготовки к новогодним продажам открыт!</h2>
+                                <ul class="banner__list list">
+                                    <li class="list__item">
+                                        <p class="banner__content description">Искуственные елки</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Гирляндыика</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Игрушки и украшения</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Пиротехника</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Новогодние подарки</p>
+                                    </li>
+                                </ul>
+                                <a class="banner__link link" href="#">Перейти к каталогу</a>
+                                <div class="banner__background">
+                                    <img class="banner__image banner__image_tree" src="images/baner-tree.png" alt="ёлка">
+                                    <img class="banner__image banner__image_decor" src="images/baner-decor.png" alt="Рождественский декор">
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel__item">
+                            <div class="banner">
+                                <h2 class="banner__title title">Сезон подготовки к новогодним продажам открыт!</h2>
+                                <ul class="banner__list list">
+                                    <li class="list__item">
+                                        <p class="banner__content description">Искуственные елки</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Гирляндыика</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Игрушки и украшения</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Пиротехника</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Новогодние подарки</p>
+                                    </li>
+                                </ul>
+                                <a class="banner__link link" href="#">Перейти к каталогу</a>
+                                <div class="banner__background">
+                                    <img class="banner__image banner__image_tree" src="images/baner-tree.png" alt="ёлка">
+                                    <img class="banner__image banner__image_decor" src="images/baner-decor.png" alt="Рождественский декор">
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel__item">
+                            <div class="banner">
+                                <h2 class="banner__title title">Сезон подготовки к новогодним продажам открыт!</h2>
+                                <ul class="banner__list list">
+                                    <li class="list__item">
+                                        <p class="banner__content description">Искуственные елки</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Гирляндыика</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Игрушки и украшения</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Пиротехника</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Новогодние подарки</p>
+                                    </li>
+                                </ul>
+                                <a class="banner__link link" href="#">Перейти к каталогу</a>
+                                <div class="banner__background">
+                                    <img class="banner__image banner__image_tree" src="images/baner-tree.png" alt="ёлка">
+                                    <img class="banner__image banner__image_decor" src="images/baner-decor.png" alt="Рождественский декор">
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel__item">
+                            <div class="banner">
+                                <h2 class="banner__title title">Сезон подготовки к новогодним продажам открыт!</h2>
+                                <ul class="banner__list list">
+                                    <li class="list__item">
+                                        <p class="banner__content description">Искуственные елки</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Гирляндыика</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Игрушки и украшения</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Пиротехника</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Новогодние подарки</p>
+                                    </li>
+                                </ul>
+                                <a class="banner__link link" href="#">Перейти к каталогу</a>
+                                <div class="banner__background">
+                                    <img class="banner__image banner__image_tree" src="images/baner-tree.png" alt="ёлка">
+                                    <img class="banner__image banner__image_decor" src="images/baner-decor.png" alt="Рождественский декор">
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel__item">
+                            <div class="banner">
+                                <h2 class="banner__title title">Сезон подготовки к новогодним продажам открыт!</h2>
+                                <ul class="banner__list list">
+                                    <li class="list__item">
+                                        <p class="banner__content description">Искуственные елки</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Гирляндыика</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Игрушки и украшения</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Пиротехника</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Новогодние подарки</p>
+                                    </li>
+                                </ul>
+                                <a class="banner__link link" href="#">Перейти к каталогу</a>
+                                <div class="banner__background">
+                                    <img class="banner__image banner__image_tree" src="images/baner-tree.png" alt="ёлка">
+                                    <img class="banner__image banner__image_decor" src="images/baner-decor.png" alt="Рождественский декор">
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel__item">
+                            <div class="banner">
+                                <h2 class="banner__title title">Сезон подготовки к новогодним продажам открыт!</h2>
+                                <ul class="banner__list list">
+                                    <li class="list__item">
+                                        <p class="banner__content description">Искуственные елки</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Гирляндыика</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Игрушки и украшения</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Пиротехника</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Новогодние подарки</p>
+                                    </li>
+                                </ul>
+                                <a class="banner__link link" href="#">Перейти к каталогу</a>
+                                <div class="banner__background">
+                                    <img class="banner__image banner__image_tree" src="images/baner-tree.png" alt="ёлка">
+                                    <img class="banner__image banner__image_decor" src="images/baner-decor.png" alt="Рождественский декор">
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel__item">
+                            <div class="banner">
+                                <h2 class="banner__title title">Сезон подготовки к новогодним продажам открыт!</h2>
+                                <ul class="banner__list list">
+                                    <li class="list__item">
+                                        <p class="banner__content description">Искуственные елки</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Гирляндыика</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Игрушки и украшения</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Пиротехника</p>
+                                    </li>
+                                    <li class="list__item">
+                                        <p class="banner__content description">Новогодние подарки</p>
+                                    </li>
+                                </ul>
+                                <a class="banner__link link" href="#">Перейти к каталогу</a>
+                                <div class="banner__background">
+                                    <img class="banner__image banner__image_tree" src="images/baner-tree.png" alt="ёлка">
+                                    <img class="banner__image banner__image_decor" src="images/baner-decor.png" alt="Рождественский декор">
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="carousel__pagination"></div>
+                </div>
+                <ul class="promo__list list">
+                    <li class="list__item">
+                        <div class="advanteg-card">
+                            <h3 class="advanteg-card__title title">Идеально для маркетплейсов</h3>
+                            <p class="advanteg-card__description description">Подробные описания, характеристики и фотографии товаров</p>
+                            <picture class="advanteg-card__image">
+                                <source media="(min-width: 768px)" srcset="images/marketplace-img_desktop.png">
+                                <img class="advanteg-card__image advanteg-card__image_marketplace" src="images/marketplace-img_mobile.png" alt="лого маркетплейсов">
+                            </picture>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <div class="advanteg-card">
+                            <h3 class="advanteg-card__title title">Работаем официально</h3>
+                            <p class="advanteg-card__description description">Белая бухгалтерия: договора, закрывающие документы, ЭДО, оплата по счету или на сайте</p>
+                            <picture class="advanteg-card__image">
+                                <source media="(min-width: 768px)" srcset="images/bank-img_desktop.png">
+                                <img class="advanteg-card__image advanteg-card__image_bank" src="images/bank-img_mobile.png" alt="здание банка">
+                            </picture>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <div class="advanteg-card">
+                            <h3 class="advanteg-card__title title">Цены от производителей без наценок</h3>
+                            <p class="advanteg-card__description description">Недорогие, но качественные товары  + Прогрессирующая система скидок и бонусов</p>
+                            <picture class="advanteg-card__image">
+                                <source media="(min-width: 768px)" srcset="images/label-img_desktop.png">
+                                <img class="advanteg-card__image advanteg-card__image_label" src="images/label-img_mobile.png" alt="бирка">
+                            </picture>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <div class="advanteg-card">
+                            <h3 class="advanteg-card__title title">Быстрая обработка заказов.<br>Доставка в РФ и СНГ</h3>
+                            <p class="advanteg-card__description description">Отгружаем заказ до любой транспортной компании. Отправка в течение 1-3 дней с момента получения оплаты</p>
+                            <picture class="advanteg-card__image">
+                                <source media="(min-width: 768px)" srcset="images/car-img_desktop.png">
+                                <img class="advanteg-card__image advanteg-card__image_car" src="images/car-img_mobile.png" alt="грузовой автомобил">
+                            </picture>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <div class="advanteg-card">
+                            <h3 class="advanteg-card__title title">Собственный склад и офис</h3>
+                            <p class="advanteg-card__description description">Будем рады угостить ваc чашечкой кофе в нашем офисе с Екатеринбурге</p>
+                            <picture class="advanteg-card__image">
+                                <source media="(min-width: 768px)" srcset="images/stock-img_desktop.png">
+                                <img class="advanteg-card__image advanteg-card__image_stock" src="images/stock-img_mobile.png" alt="здание склада">
+                            </picture>
+                        </div>
+                    </li>
+                </ul>
+            </section>   
+            <section class="catalog">
+                <div class="catalog__header">
+                    <h2 class="title">
+                        <a class="catalog__link link" href="#">Каталог</a>
+                    </h2>
+                    <ul class="breadcrumbs__list list">
+                        <li class="list__item">
+                            <a class="breadcrumbs__link link" href="#">Все товары</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="catalog__body">
+                    <div class="gallery__container">
+                        <ul class="gallery list">
+                            <li class="gallery__item list__item">
+                                <div class="product-card">
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="images/catalog/product-image-1_desktop.png">
+                                        <img class="product-card__image" src="images/catalog/product-image-1_mobile.png" alt="Ель рожденственная с белыми кончиками">
+                                    </picture>
+                                    <button class="product-card__like-button" aria-label="добавить товар в Избранное"></button>
+                                    <span class="product-card__stock">В наличии</span>
+                                    <h3 class="title">
+                                        <a class="product-card__link link" href="#">Ель рожденственная с белыми кончиками</a>
+                                    </h3>
+                                    <p class="product-card__price description">6 331 р.</p>
+                                    <div class="product-card__description">
+                                        <a class="product-card__link link" href="#">Ель рожденственная с белыми кончиками</a>
+                                        <div class="selector">
+                                            <p class="selector__title title">Высота:</p>
+                                            <ul class="selector__list list">
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">60 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">90 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">120 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">150 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">180 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">210 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button active">
+                                                        <span class="selector__value">240 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">270 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">300 см</span>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <p class="product-card__price description">6 331 р.</p>
+                                        <button class="cart-button button">
+                                            <span class="cart-button__title">В корзину</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="gallery__item list__item">
+                                <div class="product-card">
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="images/catalog/product-image-2_desktop.png">
+                                        <img class="product-card__image" src="images/catalog/product-image-2_mobile.png" alt="Сосна с эффектом инея и шишками">
+                                    </picture>
+                                    <button class="product-card__like-button" aria-label="добавить товар в Избранное"></button>
+                                    <span class="product-card__stock">В наличии</span>
+                                    <h3 class="title">
+                                        <a class="product-card__link link" href="#">Сосна с эффектом инея и шишками (от 60 до 300см.)</a>
+                                    </h3>
+                                    <p class="product-card__price description">999 331 р.</p>
+                                    <div class="product-card__description">
+                                        <a class="product-card__link link" href="#">Сосна с эффектом инея и шишками (от 60 до 300см.)</a>
+                                        <div class="selector">
+                                            <p class="selector__title title">Высота:</p>
+                                            <ul class="selector__list list">
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">60 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">90 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">120 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">150 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">180 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">210 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button active">
+                                                        <span class="selector__value">240 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">270 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">300 см</span>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <p class="product-card__price description">999 331 р.</p>
+                                        <button class="cart-button button">
+                                            <span class="cart-button__title">В корзину</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="gallery__item list__item">
+                                <div class="product-card">
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="images/catalog/product-image-3_desktop.png">
+                                        <img class="product-card__image" src="images/catalog/product-image-3_mobile.png" alt="Ель комбинированная Уральская снежная">
+                                    </picture>
+                                    <button class="product-card__like-button" aria-label="добавить товар в Избранное"></button>
+                                    <span class="product-card__stock sold-out">В наличии</span>
+                                    <h3 class="title">
+                                        <a class="product-card__link link" href="#">Ель комбинированная “Уральская снежная” (ПВХ + РЕ)</a>
+                                    </h3>
+                                    <p class="product-card__price description">16 331 р.</p>
+                                    <div class="product-card__description">
+                                        <a class="product-card__link link" href="#">Ель комбинированная “Уральская снежная” (ПВХ + РЕ)</a>
+                                        <div class="selector">
+                                            <p class="selector__title title">Высота:</p>
+                                            <ul class="selector__list list">
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">60 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">90 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">120 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">150 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">180 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">210 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button active">
+                                                        <span class="selector__value">240 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">270 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">300 см</span>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <p class="product-card__price description">16 331 р.</p>
+                                        <button class="cart-button button">
+                                            <span class="cart-button__title">В корзину</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="gallery__item list__item">
+                                <div class="product-card">
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="images/catalog/product-image-4_desktop.png">
+                                        <img class="product-card__image" src="images/catalog/product-image-4_mobile.png" alt="Ель комбинированная Уральская снежная">
+                                    </picture>
+                                    <button class="product-card__like-button" aria-label="добавить товар в Избранное"></button>
+                                    <span class="product-card__stock">В наличии</span>
+                                    <h3 class="title">
+                                        <a class="product-card__link link" href="#">Ель комбинированная “Уральская снежная” (ПВХ + РЕ)</a>
+                                    </h3>
+                                    <p class="product-card__price description">8 284 р.</p>
+                                    <div class="product-card__description">
+                                        <a class="product-card__link link" href="#">Ель комбинированная “Уральская снежная” (ПВХ + РЕ)</a>
+                                        <div class="selector">
+                                            <p class="selector__title title">Высота:</p>
+                                            <ul class="selector__list list">
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">60 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">90 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">120 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">150 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">180 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">210 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button active">
+                                                        <span class="selector__value">240 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">270 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">300 см</span>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <p class="product-card__price description">8 284 р.</p>
+                                        <button class="cart-button button">
+                                            <span class="cart-button__title">В корзину</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="gallery__item list__item">
+                                <div class="product-card">
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="images/catalog/product-image-2_desktop.png">
+                                        <img class="product-card__image" src="images/catalog/product-image-2_mobile.png" alt="Сосна с эффектом инея и шишками">
+                                    </picture>
+                                    <button class="product-card__like-button" aria-label="добавить товар в Избранное"></button>
+                                    <span class="product-card__stock">В наличии</span>
+                                    <h3 class="title">
+                                        <a class="product-card__link link" href="#">Сосна с эффектом инея и шишками (от 60 до 300см.)</a>
+                                    </h3>
+                                    <p class="product-card__price description">999 331 р.</p>
+                                    <div class="product-card__description">
+                                        <a class="product-card__link link" href="#">Сосна с эффектом инея и шишками (от 60 до 300см.)</a>
+                                        <div class="selector">
+                                            <p class="selector__title title">Высота:</p>
+                                            <ul class="selector__list list">
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">60 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">90 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">120 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">150 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">180 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">210 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button active">
+                                                        <span class="selector__value">240 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">270 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">300 см</span>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <p class="product-card__price description">999 331 р.</p>
+                                        <button class="cart-button button">
+                                            <span class="cart-button__title">В корзину</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="gallery__item list__item">
+                                <div class="product-card">
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="images/catalog/product-image-3_desktop.png">
+                                        <img class="product-card__image" src="images/catalog/product-image-3_mobile.png" alt="Ель комбинированная Уральская снежная">
+                                    </picture>
+                                    <button class="product-card__like-button" aria-label="добавить товар в Избранное"></button>
+                                    <span class="product-card__stock">В наличии</span>
+                                    <h3 class="title">
+                                        <a class="product-card__link link" href="#">Ель комбинированная “Уральская снежная” (ПВХ + РЕ)</a>
+                                    </h3>
+                                    <p class="product-card__price description">16 331 р.</p>
+                                    <div class="product-card__description">
+                                        <a class="product-card__link link" href="#">Ель комбинированная “Уральская снежная” (ПВХ + РЕ)</a>
+                                        <div class="selector">
+                                            <p class="selector__title title">Высота:</p>
+                                            <ul class="selector__list list">
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">60 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">90 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">120 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">150 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">180 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">210 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button active">
+                                                        <span class="selector__value">240 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">270 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">300 см</span>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <p class="product-card__price description">16 331 р.</p>
+                                        <button class="cart-button button">
+                                            <span class="cart-button__title">В корзину</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="gallery__item list__item">
+                                <div class="product-card">
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="images/catalog/product-image-4_desktop.png">
+                                        <img class="product-card__image" src="images/catalog/product-image-4_mobile.png" alt="Ель комбинированная Уральская снежная">
+                                    </picture>
+                                    <button class="product-card__like-button" aria-label="добавить товар в Избранное"></button>
+                                    <span class="product-card__stock">В наличии</span>
+                                    <h3 class="title">
+                                        <a class="product-card__link link" href="#">Ель комбинированная “Уральская снежная” (ПВХ + РЕ)</a>
+                                    </h3>
+                                    <p class="product-card__price description">8 284 р.</p>
+                                    <div class="product-card__description">
+                                        <a class="product-card__link link" href="#">Ель комбинированная “Уральская снежная” (ПВХ + РЕ)</a>
+                                        <div class="selector">
+                                            <p class="selector__title title">Высота:</p>
+                                            <ul class="selector__list list">
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">60 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">90 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">120 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">150 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">180 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">210 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button active">
+                                                        <span class="selector__value">240 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">270 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">300 см</span>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <p class="product-card__price description">8 284 р.</p>
+                                        <button class="cart-button button">
+                                            <span class="cart-button__title">В корзину</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="gallery__item list__item">
+                                <div class="product-card">
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="images/catalog/product-image-1_desktop.png">
+                                        <img class="product-card__image" src="images/catalog/product-image-1_mobile.png" alt="Ель рожденственная с белыми кончиками">
+                                    </picture>
+                                    <button class="product-card__like-button" aria-label="добавить товар в Избранное"></button>
+                                    <span class="product-card__stock">В наличии</span>
+                                    <h3 class="title">
+                                        <a class="product-card__link link" href="#">Ель рожденственная с белыми кончиками</a>
+                                    </h3>
+                                    <p class="product-card__price description">6 331 р.</p>
+                                    <div class="product-card__description">
+                                        <a class="product-card__link link" href="#">Ель рожденственная с белыми кончиками</a>
+                                        <div class="selector">
+                                            <p class="selector__title title">Высота:</p>
+                                            <ul class="selector__list list">
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">60 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">90 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">120 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">150 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">180 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">210 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button active">
+                                                        <span class="selector__value">240 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">270 см</span>
+                                                    </button>
+                                                </li>
+                                                <li class="list__item">
+                                                    <button class="selector__button button">
+                                                        <span class="selector__value">300 см</span>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <p class="product-card__price description">6 331 р.</p>
+                                        <button class="cart-button button">
+                                            <span class="cart-button__title">В корзину</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul> 
+                    </div>
+                    <button class="gallery__button button" aria-label="вперёд"></button>
+                </div>
+            </section>
+            <section class="about">
+                <h2 class="title about__title">О нас</h2>
+                <p class="description about__description about__description_desktop">Мы надежный поставщик для маркетплейсов. Мы рады предложить вам недорогие, но качественные товары с качественными описаниями и фотографиями.
+                    <br>У нас вы можете купить замечательные товары: искуственные елки, гирлянды, пиротехнику, электронику, одежду, обувь, аксессуары. Минимальная сумма заказа всего 10 000 руб.
+                </p>
+                <p class="description about__description description about__description_mobile">Оптовый Базар - это надежный поставщик для маркетплейсов. Мы рады предложить вам недорогие, но качественные товары с качестченными описаниями и фотографиями. 
+                    У нас вы можете купить замечательные товары: искуственные елки, гирлянды, пиротехнику, электронику, одежду, обувь, аксессуары
+                </p>
+                <img class="about__image" src="images/stock.png" alt="фото склада">
+            </section> 
+        </main>
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="tabs footer__columns">
+                    <input class="tabs__checkbox" type="checkbox" id="chck1">
+                    <label class="tabs__title" for="chck1">Компания</label>
+                    <ul class="tabs__list list">
+                        <li class="list__item">
+                            <a class="tabs__link link" href="#" target="_blank">О компании</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="tabs__link link" href="#" target="_blank">Блог</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="tabs__link link" href="#" target="_blank">Стать поставщиком</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="tabs__link link" href="#" target="_blank">Стать инвестором</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="tabs__link link" href="#" target="_blank">Контакты</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="tabs__link link" href="#" target="_blank">Пользовательское соглашение</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="tabs__link link" href="#" target="_blank">Политика конфиденциальности и оферта</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabs footer__columns">
+                    <input class="tabs__checkbox" type="checkbox" id="chck2">
+                    <label class="tabs__title" for="chck2">Покупателям</label>
+                    <ul class="tabs__list list">
+                        <li class="list__item">
+                            <a class="tabs__link link" href="#" target="_blank">Каталог</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="tabs__link link" href="#" target="_blank">Корзина</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="tabs__link link" href="#" target="_blank">Избранные товары</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="tabs__link link" href="#" target="_blank">Личный кабинет</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="tabs__link link" href="#" target="_blank">Доставка</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="tabs__link link" href="#" target="_blank">Оплата</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="tabs__link link" href="#" target="_blank">Обмен и возврат</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="callback footer__columns">
+                    <h3 class="callback__title title">Следите за новинками и акциями</h3>
+                    <form class="callback__form" name="mailForm" noValidate>
+                        <label class="callback__field">
+                            <input class="callback__input" type="email" name="userEmail" placeholder="Адрес электронной почты" required>
+                        </label>
+                        <button class="button callback__submit-btn" type="submit" aria-label="отправить e-mail"></button>
+                    </form>
+                    <small class="callback__description description">Нажимая кнопку, я соглашаюсь на получение информации, принимаю условия политики конфиденциальности и пользовательского соглашения, даю согласие на обработку персональных данных</small>
+                    <ul class="contacts__list list">
+                        <li class="list__item">
+                            <a class="contacts__link link" href="tel:#" target="_blank">
+                                <img class="contacts__image" src="./images/phone-icon.svg" alt="телефон">
+                            </a>
+                        </li>
+                        <li class="list__item">
+                            <a class="contacts__link link" href="mailto:#" target="_blank">
+                                <img class="contacts__image" src="./images/mail-icon.svg" alt="e-mail">
+                            </a>
+                        </li>
+                        <li class="list__item">
+                            <a class="contacts__link link" href="#" target="_blank">
+                                <img class="contacts__image" src="./images/home-icon.svg" alt="наш сайт">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="messengers__list messengers__list_footer list">
+                        <li class="list__item">
+                            <a class="messengers__link messengers__link_footer" href="https://vk.ru" target="_blank">
+                                <img class="messengers__social-icon messengers__social-icon_footer messengers__social-icon_vk" src="./images/vk-icon_footer.svg" alt="Vkontakte">
+                            </a>
+                        </li>
+                        <li class="list__item">
+                            <a class="messengers__link messengers__link_footer" href="https://t.me/user_name" target="_blank">
+                                <img class="messengers__social-icon messengers__social-icon_footer messengers__social-icon_tg" src="./images/tg-logo_footer.svg" alt="Telegram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__container">
+                    <p class="footer__copyright description">&copy; 2023</p>
+                    <ul class="payment-system payment-system__list list">
+                        <li class="list__item">
+                            <img class="payment-system__logo" src="./images/mastercard-logo.svg" alt="mastercard">
+                        </li>
+                        <li class="list__item">
+                            <img class="payment-system__logo" src="./images/visa-logo.svg" alt="visa">
+                        </li>
+                        <li class="list__item">
+                            <img class="payment-system__logo" src="./images/mir-logo.svg" alt="мир">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <button class="scroll-to-top-button button" aria-label="Вверх"></button>
+    </div>
+</body>
+</html>

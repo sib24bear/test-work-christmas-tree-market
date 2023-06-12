@@ -1,0 +1,29 @@
+.about__description {
+    grid-area: description;
+    padding-top: 24px;
+    padding-left: 56px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #282828;
+}
+
+.about__description_mobile {
+    display: none;
+}
+
+@media (max-width: 767.9px) {
+    .about__description {
+        padding: 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .about__description_desktop {
+        display: none;
+    }
+    
+    .about__description_mobile {
+        display: block;
+    }
+}

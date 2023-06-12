@@ -1,0 +1,10 @@
+.about__image {
+    grid-area: image;
+    border-radius: 40px;
+}
+
+@media (max-width: 767.9px) {
+    .about__image {
+        width: 100%;
+    }
+}

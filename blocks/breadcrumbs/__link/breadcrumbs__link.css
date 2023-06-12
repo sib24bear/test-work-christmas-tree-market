@@ -1,0 +1,25 @@
+.breadcrumbs__link {
+    padding-left: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #a9a9a9;
+    transition: color .3s ease-in-out;
+}
+
+.breadcrumbs__link::before {
+    content: '/';
+    padding-right: 8px;
+    color: #a9a9a9;
+}
+
+.breadcrumbs__link:hover {
+    color: #282828;
+}
+
+@media (max-width: 767.9px) {
+    .breadcrumbs__link {
+        font-size: 16px;
+        line-height: 150%;
+    }
+}

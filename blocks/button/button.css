@@ -1,0 +1,10 @@
+.button {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', Arial, sans-serif;
+    color: #282828;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}

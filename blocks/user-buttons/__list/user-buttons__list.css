@@ -1,0 +1,16 @@
+.user-buttons__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: end;
+}
+
+@media (max-width: 767.9px) {
+    .user-buttons__list {
+        grid-template-columns: repeat(3, max-content);
+        column-gap: 16px;
+    }
+
+    .user-buttons__list > .list__item {
+        display: flex;
+    }
+}

@@ -1,0 +1,15 @@
+.callback__description {
+    display: block;
+    padding: 12px 0;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #808080;
+}
+
+@media (max-width: 767.9px) {
+    .callback__description {
+        padding: 12px 0 16px;
+        color: #a9a9a9;
+    }
+}

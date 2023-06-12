@@ -1,0 +1,13 @@
+.carousel {
+  width: 1440px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 767.9px) {
+  .carousel {
+    width: auto;
+    height: 220px
+  }
+}

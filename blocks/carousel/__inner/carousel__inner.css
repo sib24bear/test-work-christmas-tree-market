@@ -1,0 +1,12 @@
+.carousel__inner {
+    display: flex;
+    width: calc(1250px * var(--slide-count));
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(calc(-100% / var(--slide-count)));
+}
+
+@media (max-width: 767.9px) {
+    .carousel__inner {
+        width: calc(377px * var(--slide-count));
+    }
+}

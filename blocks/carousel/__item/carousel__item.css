@@ -1,0 +1,14 @@
+.carousel__item {
+    flex: 0 0 calc(100% / var(--slide-count));
+    max-width: calc(100% / var(--slide-count));
+    margin: 0 16px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+@media (max-width: 767.9px) {
+    .carousel__item {
+        margin: 0 5px;
+        border-radius: 10px;
+    }
+}

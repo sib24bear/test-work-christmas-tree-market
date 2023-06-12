@@ -1,0 +1,71 @@
+.burger-line {
+    position: relative;
+    display: block;
+    width: 15px;
+    height: 2px;
+    margin-top: -2px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.burger-line::before,
+.burger-line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+    z-index: 2;
+    transition: 0.3s;
+}
+
+.burger-line::before {
+    transform: translateY(-6px);
+}
+
+.burger-line::after {
+    transform: translateY(4px);
+}
+
+.catalog-button.active .burger-line {
+    height: 0;
+    margin-top: -3px;
+}
+
+.catalog-button.active .burger-line::before {
+    transform: rotate(45deg);
+}
+
+.catalog-button.active .burger-line::after {
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 767.9px) {
+    .burger-line {
+        background-color: #282828;
+        margin-top: 0;
+    }
+    
+    .burger-line::before,
+    .burger-line::after {
+        background-color: #282828;
+    }
+
+    .catalog-button.active .burger-line {
+        margin-top: 0;
+    }
+
+    .catalog-button:hover .burger-line {
+        height: 0;
+    }
+    
+    .catalog-button:hover .burger-line::before {
+        transform: rotate(45deg);
+    }
+    
+    .catalog-button:hover .burger-line::after {
+        transform: rotate(-45deg);
+    }
+}

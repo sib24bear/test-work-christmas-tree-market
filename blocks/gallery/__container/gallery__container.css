@@ -1,0 +1,12 @@
+.gallery__container {
+    overflow: hidden;
+    position: relative;
+    width: 1312px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767.9px) {
+    .gallery__container {
+        width: 404px;
+    }
+}

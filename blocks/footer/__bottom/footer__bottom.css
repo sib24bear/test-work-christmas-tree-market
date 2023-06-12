@@ -1,0 +1,9 @@
+.footer__bottom {
+    border-top: 1px solid #A9A9A9;
+}
+
+@media (max-width: 767.9px) {
+    .footer__bottom {
+        border-top: none;
+    }
+}

@@ -1,0 +1,18 @@
+.selector__value {
+    position: relative;
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #525252;
+    transition: color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    z-index: 10;
+}
+
+@media (max-width: 767.9px) {
+    .selector__value {
+        display: block;
+        font-size: 10px;
+        line-height: 12px;
+    }
+}

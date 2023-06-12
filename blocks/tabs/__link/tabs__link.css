@@ -1,0 +1,20 @@
+.tabs__link {
+    display: block;
+    padding: 2px 0 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+    opacity: 0.6;
+    transition: opacity .3s ease-in-out;
+}
+
+.tabs__link:hover {
+    opacity: 1;
+}
+
+@media (max-width: 767.9px) {
+    .tabs__link {
+        line-height: 16px;
+    }
+}

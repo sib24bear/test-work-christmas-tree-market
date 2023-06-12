@@ -1,0 +1,20 @@
+.banner__title {
+    position: relative;
+    z-index: 10;
+    max-width: 465px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33px;
+    color: #5c71b2;
+}
+
+@media (max-width: 767.9px) {
+    .banner__title {
+        position: relative;
+        z-index: 10;
+        max-width: 267px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #5c71b2;
+    }
+}

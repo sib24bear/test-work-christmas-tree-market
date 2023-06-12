@@ -1,0 +1,32 @@
+.about {
+    box-sizing: border-box;
+    position: relative;
+    display: grid;
+    grid-template-areas:
+    "title image"
+    "description image";
+    grid-template-rows: max-content 1fr;
+    grid-template-columns: 1fr max-content;
+    column-gap: 77px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 0 53px 50px;
+}
+
+@media (max-width: 767.9px) {
+    .about {
+        grid-template-areas:
+            "title"
+            "image"
+            "description";
+        grid-template-rows: repeat(3, min-content);
+        grid-template-columns: auto;
+        column-gap: 0;
+        row-gap: 12px;
+        min-width: 288px;
+        margin-top: 40px;
+        padding: 0 24px 30px;
+    }
+}

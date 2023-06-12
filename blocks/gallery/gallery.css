@@ -1,0 +1,5 @@
+.gallery {
+    display: flex;
+    width: max-content;
+    scroll-behavior: smooth;
+}

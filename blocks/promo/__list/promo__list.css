@@ -1,0 +1,23 @@
+.promo__list {
+    box-sizing: border-box;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 24px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding: 0 80px 60px;
+}
+
+@media (max-width: 767.9px) {
+    .promo__list {
+        column-gap: 12px;
+        min-width: 288px;
+        margin: 0 auto;
+        margin-top: 0px;
+        padding: 0 24px 20px;
+        overflow: hidden;
+    }
+}

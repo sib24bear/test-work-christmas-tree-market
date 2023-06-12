@@ -1,0 +1,34 @@
+.tabs__title {
+    display: block;
+    /* width: 100%; */
+    position: relative;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #282828;
+}
+
+@media (max-width: 767.9px) {
+    .tabs__title {
+        width: 100%;
+        padding-bottom: 16px;
+        font-size: 18px;
+        line-height: 21px;
+        cursor: pointer;
+    }
+
+    .tabs__title::after {
+        content: " ";
+        position: absolute;
+        right: 0;
+        width: 24px;
+        height: 24px;
+        background-image: url(../../../images/tab-arrow.svg);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        text-align: center;
+        transform: rotate(-90deg);
+        transition: all 0.35s;
+    }
+}

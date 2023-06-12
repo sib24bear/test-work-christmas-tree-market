@@ -1,0 +1,17 @@
+.catalog__header {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+@media (max-width: 767.9px) {
+    .catalog__header {
+        min-width: 288px;
+        padding: 0 24px;
+    }
+}

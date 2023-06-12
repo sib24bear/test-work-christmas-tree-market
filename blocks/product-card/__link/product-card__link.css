@@ -1,0 +1,28 @@
+.product-card__link {
+    grid-area: title;
+    display: block;
+    padding: 12px 12px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #282828;
+    transition: color .3s ease-in-out;
+}
+
+.product-card__link:hover {
+    color: #2a5cf6;
+}
+
+.product-card__link:focus {
+    outline: none;
+    color: #2a5cf6;
+}
+
+@media (max-width: 767.9px) {
+    .product-card__link {
+        padding: 8px 16px 0;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+}

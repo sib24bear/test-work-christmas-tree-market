@@ -1,0 +1,12 @@
+.nav__link {
+    transition: color .3s ease-in-out;
+}
+
+.nav__link:hover {
+    color: #2a5cf6;
+}
+
+.nav__link:focus {
+    outline: none;
+    color: #2a5cf6;
+}

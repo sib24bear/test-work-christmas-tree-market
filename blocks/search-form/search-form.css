@@ -1,0 +1,36 @@
+.search-form {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    align-items: center;
+    background: linear-gradient(79.06deg, #2A5CF6 17.67%, #2A5CF6 17.68%, #7191F4 143.49%);
+    border-radius: 56px;
+}
+
+.search-form::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-radius: 56px;
+    background: linear-gradient(82.33deg, #9E0CAA 0.26%, #242AFF 47.35%, #23FBE1 111.53%);
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.search-form:hover {
+    transform: scale(1, 1);
+}
+
+.search-form:hover::after {
+    opacity: 1;
+}
+
+@media (max-width: 767.9px) {
+    .search-form {
+        grid-area: search;
+    }
+}
